@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-#kapsayici {
+#container {
     display: flex;
     width: 500px;
     height: 400px;
@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-#orta-kapsayici {
+#orta-container {
     display: flex;
     width: 340px;
     height: 400px;
@@ -18,7 +18,7 @@
     border: 5px solid black;
 }
 
-#kucuk-kapsayici {
+#kucuk-container {
     margin: auto;
     display: flex;
     width: 340px;
