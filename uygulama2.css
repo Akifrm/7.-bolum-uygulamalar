@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img {
+    width: 192px;
+    height: 108px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+}
+
+img {
+    display: flex;
+    width: 192px;
+    height: 108px;
+    border-radius: 15px;
+}
+
+.border {
+    display: flex;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    justify-content: center;
+}
+
+.grid-items {
+    border-radius: 55px;
+}
+
+.month {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: blue;
+    opacity: .5;
+    border-radius: 8px;
+}
+
+.tarih {
+    width: 76px;
+}
+
+.description {
+    max-width: 290px;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
